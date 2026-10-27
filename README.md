@@ -52,11 +52,11 @@ flowchart LR
 
 | Registration form | Successful registration |
 |---|---|
-| ![Form](docs/screenshots/01-form.png) | ![Success](docs/screenshots/02-success.png) |
+| ![Form](docs/screenshots/01-form.jpeg) | ![Success](docs/screenshots/02-success.png) |
 
-| SNS email notification | SNS topic and confirmed subscription |
+| SNS subscription confirmed | SNS email notification |
 |---|---|
-| ![Email](docs/screenshots/03-email.png) | ![SNS](docs/screenshots/04-sns-topic.png) |
+| ![SNS subscription](docs/screenshots/03-sns-subscription-confirmed.png) | ![Email](docs/screenshots/04-email-notification.png) |
 
 | DynamoDB table | DynamoDB items |
 |---|---|
@@ -65,6 +65,10 @@ flowchart LR
 | EC2 instance | Security group rules |
 |---|---|
 | ![EC2](docs/screenshots/07-ec2-instance.png) | ![SG](docs/screenshots/08-security-group.png) |
+
+**SNS topic with confirmed email subscription**
+
+![SNS topic](docs/screenshots/09-sns-topic.png)
 
 ---
 
